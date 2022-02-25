@@ -990,7 +990,7 @@ async def start_yukki():
             )
             await khu(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             await khu(
-                functions.channels.JoinChannelRequest(channel="@Official__LegendBot")
+                functions.channels.JoinChannelRequest(channel="@Official_K_LegendBot")
             )
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
